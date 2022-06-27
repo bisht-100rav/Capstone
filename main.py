@@ -8,13 +8,14 @@ Created on Mon Jun 27 10:02:03 2022
 #Import tqdm and time from library
 import time
 from PIL import  Image
-#from tqdm import tqdm
 
+#from tqdm import tqdm
 '''
 #Simple progress bar
 for i in tqdm(range(100)):
     time.sleep(0.03)
 '''
+
 #Importing pygame library as 'py'
 import pygame as py
 
@@ -25,8 +26,8 @@ py.init()
 
 # Assigning variables
 # display height and width variables
-display_width=800                   #Actually 'height'
-display_height=400                  #Actually 'width'
+display_width = 800                   #Actually 'height'
+display_height = 400                  #Actually 'width'
 
 
 #Assigning variables for colors to be used in game loop inside game
@@ -140,7 +141,7 @@ def game_loop():
     cloud3_y = random.randrange(90, 200)
     cloud3_speed = 10
     
-    Exit=False
+    Exit = False
 
     while not Exit:
 
